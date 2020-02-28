@@ -1,0 +1,15 @@
+#/etc/systemd/system/tp_smapi_set_battery_thresholds.service
+[Unit]
+Description=Set Battery Charge Thresholds by tp_smapi
+
+[Service]
+#Type=oneshot
+ExecStart=/usr/sbin/set_battery_thresholds
+# Restart service automatically only when service fail. It will stop success code exit=0.
+Restart=on-failure
+# Time till next restart. 60 seconds.
+RestartSec=60
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
