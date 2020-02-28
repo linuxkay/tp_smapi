@@ -1,0 +1,7 @@
+#!/bin/sh
+# /usr/sbin/set_battery_thresholds
+# set the battery charging thresholds to extend battery lifespan
+# Disable start_change_thresh for X220. See tp_smapi supported device for more details.
+#echo ${2:-20} > /sys/devices/platform/smapi/BAT${1:-0}/start_charge_thresh
+echo ${3:-75} > /sys/devices/platform/smapi/BAT${1:-0}/stop_charge_thresh
+#echo 75 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh
