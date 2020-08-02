@@ -16,6 +16,14 @@ Stop charging at 79%
 
 Start charging at 20&
 
+Try to reload tp_smapi when systemctl cannot start service after kernel update.
+
+`sudo modprobe tp_smapi`
+
+confirm by
+
+`sudo echo 75 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh `
+
 ## Demo in Animation
 
 ## Overview
