@@ -30,6 +30,8 @@ confirm by
 
 ## Requirements
 
+tp-smapi-dkms
+
 ## Install
 
 ## Usage
