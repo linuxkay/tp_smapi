@@ -34,6 +34,8 @@ tp-smapi-dkms
 
 ## Install
 
+`sudo apt -y install tp-smapi-dkms`
+
 ## Usage
 
 ## Contribution
