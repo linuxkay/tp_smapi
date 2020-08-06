@@ -16,6 +16,10 @@ Stop charging at 79%
 
 Start charging at 20&
 
+
+Troubleshoot
+
+
 Try to reload tp_smapi when systemctl cannot start service after kernel update.
 
 `sudo modprobe tp_smapi`
