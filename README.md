@@ -20,7 +20,11 @@ Start charging at 20&
 Troubleshoot
 
 
-Try to reload tp_smapi when systemctl cannot start service after kernel update.
+Try to reload tp_smapi when systemctl cannot start service.
+
+This happens when system gets kernel update
+
+command 
 
 `sudo modprobe tp_smapi`
 
