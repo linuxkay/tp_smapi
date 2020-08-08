@@ -30,7 +30,7 @@ command
 
 confirm by
 
-`sudo echo 75 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh `
+`sudo echo 75 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh`
 
 ## Demo in Animation
 
